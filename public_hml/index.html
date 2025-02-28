@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotatepec</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="marca"><img id="logo" src="img/logo.png" alt="Inicio"></a>
+        <a href="contenido/subpagina2/usuario.html">Carrito</a>
+        <a href="contenido/subpagina2/usuario.html">Cuenta</a>
+    </header>
+    <nav class="menu">
+        <div class="menu-item">
+            <a href="">Alimentos</a> 
+            <div class="submenu">
+                <a href="contenido/subPagina1/productos.html">Perros</a>
+                <a href="contenido/subPagina1/productos.html">Gatos</a>
+                <a href="contenido/subPagina1/productos.html">Aves</a>
+                <a href="contenido/subPagina1/productos.html">Reptile</a>
+                <a href="contenido/subPagina1/productos.html">Roedores</a> 
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="">Ropa</a>
+            <div class="submenu">
+                <a href="contenido/subPagina1/productos.html">Invierno</a>
+                <a href="contenido/subPagina1/productos.html">Verano</a>
+                <a href="contenido/subPagina1/productos.html">halloween</a>
+                <a href="contenido/subPagina1/productos.html">Acesorios</a>
+            </div>
+        </div>
+        <a href="contenido/subPagina1/productos.html">Juguetes</a> 
+        <a href="contenido/subPagina1/productos.html">Accesorios</a> 
+        <a href="contenido/subPagina1/productos.html">Salud y bienestar</a> 
+        <a href="contenido/subPagina1/productos.html">Adopción</a>  
+    </nav>
+    <div class="container">
+        <div class="contenido">
+            <div class="colum seccion">
+                <h2 class="categorias">Lo nuevo</h2>
+                <div class="flex-container-align-items align-stretch">
+                    <div class="producto flex-row-item">
+                        <img src="img/trajeGato.jpg" alt="">
+                        <p class="detalles">Traje de abeja para Gato.</p>
+                        <p class="precio">$250.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                    <div class="producto flex-row-item">
+                        <img src="img/hamaca.jpg" alt="Hamaca">
+                        <p class="detalles">Hamaca de descanso.</p>
+                        <p class="precio">$350.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                    <div class="producto flex-row-item">
+                        <img src="img/sudaderaPerro.jpg" alt="Sudadera para Perro">
+                        <p class="detalles">Sudadera de cuadros para perro.</p>
+                        <p class="precio">$500.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-container-align-items align-stretch">
+                    <div class="producto flex-row-item">
+                        <img src="img/pelotaGato.jpg" alt="Pelota">
+                        <p class="detalles">Pelota interactiva.</p>
+                        <p class="precio">$150.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                    <div class="producto flex-row-item">
+                        <img src="img/ruedaEjercicioHams.jpg" alt="Rueda para roedores ">
+                        <p class="detalles">Rueda de ejercicio.</p>
+                        <p class="precio">$85.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                    <div class="producto flex-row-item">
+                        <img src="img/trajeDino.jpg" alt="Traje de dinosaurio">
+                        <p class="detalles">Traje de dinosaurio para gato.</p>
+                        <p class="precio">$430.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-container-align-items align-stretch">
+                    <div class="producto flex-row-item">
+                        <img src="img/laberintohamster.jpg" alt="Jaula con laberinto">
+                        <p class="detalles">Jaula con laberinto.</p>
+                        <p class="precio">$1325.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+                    <div class="producto flex-row-item">
+                        <img src="img/JuguetePerro.jpg" alt="Juguete interactivo">
+                        <p class="detalles">Juguete interactivo para perro.</p>
+                        <p class="precio">$950.00</p>
+                        <button onclick="anadirProducto(event);"> 
+                            Añadir 
+                            <img class="carrito" src="img/carrito.png">
+                        </button>
+                    </div>
+            </div>
+            </div>
+            <div class="colum seccion">
+                <h2 class="categorias">Mascotas</h2>
+                <div class="flex-container-justify-content justify-space-around">
+                    <div class="flex-row-item">
+                        <h3>Perro</h3>
+                        <a href=""><img  class="imagen" src="img/perro.jpg" alt="Perros"></a>
+                    </div>
+                    <div class="flex-row-item">
+                        <h3>Gato</h3>
+                        <a href=""><img class="imagen" src="img/gato.jpg" alt="Gatos"></a>
+                    </div>
+                    <div class="flex-row-item">
+                        <h3>Reptiles</h3>
+                        <a href=""><img class="imagen" src="img/reptil.jpg" alt="Reptiles"></a>
+                    </div>
+                </div>
+                <div class="flex-container-justify-content justify-space-around">
+                    <div class="flex-row-item">
+                        <h3>Aves</h3>
+                        <a href=""><img class="imagen" src="img/aves.jpg" alt="Aves"></a>
+                    </div>
+                    <div class="flex-row-item">
+                        <h3>Roedores</h3>
+                        <a href=""><img class="imagen" src="img/roedor.jpg" alt="Roedores"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="column seccion">
+                <div class="mascotatepec ">
+                    <h1>¿Qué es Mascotatepec?</h1>
+                    <p><i>Mascotatepec</i>, un espacio creado con amor, dedicación y un firme 
+                    propósito: mejorar la vida de nuestras mascotas y, con ello, la de sus familias.
+                        En <i>Mascotatepec</i>, creemos que cada mascota es un miembro especial de la familia 
+                        y merece lo mejor. Por eso, hemos diseñado una tienda en línea que no solo ofrece 
+                        productos, sino que crea experiencias únicas para perros, gatos y todo tipo de compañeros 
+                        que son más que unas simples mascotas.
+                    </p>
+                    <h2>Nuestro compromiso es ofrecer:</h2>
+                    <p>🐾<b> Productos innovadores y de calidad :</b> Desde juguetes interactivos hasta gadgets tecnológicos 
+                        que facilitan la vida de nuestros amigos de cuatro patas. <br>
+                        🐾 <b>Bienestar y salud:</b> Seleccionamos cuidadosamente alimentos y suplementos que cuidan su salud y vitalidad. <br>
+                        🐾 <b>Accesorios funcionales y estilosos:</b> Porque sabemos que una mascota bien cuidada también puede tener estilo. <br>
+                        Pero <i>Mascotatepec</i> no es solo una tienda. Somos una comunidad, un espacio donde 
+                        los amantes de los animales pueden encontrar información, consejos y recomendaciones
+                        para el cuidado de sus mascotas. Queremos que cada compra sea una experiencia especial 
+                        y que cada mascota disfrute de un mundo lleno de amor y diversión. <br>
+                        Porque para nosotros, no son solo mascotas... son familia. 💙 <br>
+                        Bienvenidos a Mascotatepec, donde las patas dejan huella. 🐾
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="carritoCompras">
+            <h2>Carrito de compras</h2>
+            <div class="productosCarrito">
+                <div class="descripcion">
+                    <h4>Producto</h4>
+                    <p class="productoCompra"></p>
+                    <h4>Precio</h4>
+                    <p class="valor"></p>
+                </div>
+    
+                <div class="cantidad">
+                    <button onclick="agregarProducto();" id="agregar">+</button>
+                    <p class="cantidad">0</p>
+                    <button onclick="quitarProducto();" id="quitar">-</button>
+                </div>
+            </div>
+            <div>
+                <h5 class="total">Total:</h5>
+                <p class="Valor">$0</p>
+                <button class="eliminar" onclick="vaciarCarrito();" id="limpiar" disabled>
+                    Eliminar Carrito 
+                    <img src="img/basura.png" alt="Eliminar">
+                </button>  
+            </div>
+        </div>
+    
+    </div>
+    <footer>
+        <h4>Contactanos:</h4>
+        <div class="social-icons">
+            <a class="redes" href="https://www.facebook.com/?locale=es_LA"><img src="img/facebook.jpg" alt="Facebook"></a>
+        </div>
+        <div class="social-icons">
+            <a class="redes" href="https://www.facebook.com/?locale=es_LA"><img src="img/x.jpg" alt="X"></a>
+        </div>
+        <div class="social-icons">
+            <a class="redes" href="https://web.whatsapp.com/"><img src="img/whatsapp.jpg" alt="WhatsApp"></a>
+        </div>
+        <div class="social-icons">
+            <a class="redes" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="img/gmail.jpg" alt="Gmail"></a>
+        </div>
+    </footer>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
+
